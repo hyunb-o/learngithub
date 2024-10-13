@@ -1,0 +1,32 @@
+###202434751 KimHyunBo
+
+## Version Control and collaboration
+- essential to use a version control system for software development and other documentation works.
+ 
+## Changes and Snapshots
+- changes : : Only stores differences between versions.
+- snapshots :  Stores a full copy of the project at each point.
+
+## Version control
+- Local : Changes are tracked on a local machine.
+- Centralized : A central server stores the history
+- Distributed : Every contributor has a whole copy of the project.
+
+## Git command
+Various commands used to perform version management, such as tracking, committing, or creating and merging branches of code
+- **'$ git int'**
+This command is used to initialize a Git repository. When you run this command in a project folder, a hidden .git directory is created in the folder, allowing Git to track changes to the files in that project
+- **'$ git status'**
+ It tells you which files have been modified, which files are staged for commit, and which files are not being tracked yet.
+- **'$ git add[file_name]'**
+It prepares the file for commit. You need to replace [file_name] with the name of the file you want to stage.
+- **'$ git add . '**
+The . refers to the current directory, and it stages all modified or new files at once.
+- **'$ git rm --cached [file_name]'**
+It is useful for untracking a file while keeping it locally. Replace [file_name] with the name of the file.
+- **'$ nano .gitignore'**
+ The .gitignore file is used to specify files or directories that you want Git to ignore and not track.
+- **'$ 'git commit -m “commit message"'**
+The -m flag allows you to directly write a commit message in quotes, which describes the changes.
+- **'$ git branch -m master main'**
+It is often used to rename the default branch to "main," following modern practices to adopt more inclusive terminology.
