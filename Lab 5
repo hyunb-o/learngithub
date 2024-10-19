@@ -1,0 +1,31 @@
+# Essential Shell Commands and Features
+
+## 1. Using “>” After a Command
+- The `>` symbol is used to create and save the output of a command to a file.
+- If the file does not exist, it will be created; if it exists, the file will be overwritten.
+
+**Example:**
+```bash
+1. **Using “>” after a command**: This is used to create and save the output of
+a command to a file.
+- Tip: Use `cat` to view the file's contents.
+2. **Using “>>”**: This appends the output to an existing file.
+3. **Using sort**: You can sort data in dictionary (lexical) order.
+6. **Using echo ***: Prints all files in the current directory.
+7. **Using echo ~**: Displays the user’s home directory.
+4. **Pipelines “|”**: This allows the output of one process to be used as input for
+the next process.
+5. **echo**: Prints text.
+8. **Backslash (\\)**: Ignores line breaks.
+9. **Permissions**: In a multi-user system, permissions are categorized as reading
+(r), writing (w), and executing (x).
+10. **chmod**: Changes file or directory permissions, which are represented in
+binary format.
+11. **Superuser**: A user with full system administration privileges.
+12. **Text editor**: A tool (like vi, vim) that only uses the keyboard for text
+editing.
+13. **Shell Script**: You can write and execute shell scripts using bash.
+14. **History command**: Allows you to view the command history.
+- Tip: You can check the history in the `history_command.txt` file.
+15. **wget**: Downloads files from URLs.
+16. **curl**: Allows downloading and uploading over the Internet.
