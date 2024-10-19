@@ -1,0 +1,55 @@
+# Basic Concepts of GUI, CLI, Kernel, and Shell
+
+This document provides an overview of basic concepts related to GUI, CLI, Kernel, and Shell, as well as some common shell commands.
+
+## 1. GUI (Graphical User Interface) and CLI (Command-Line Interface)
+
+- **GUI** is an intuitive and visual interface, allowing users to interact with the system through graphical elements like icons, buttons, and windows.
+- **CLI** uses text-based commands, offering more control and efficiency for advanced users. While it may have a steeper learning curve, it provides powerful and flexible system control.
+
+## 2. Kernel
+
+- The **kernel** is the core component of an operating system that connects hardware and software. It efficiently manages system resources and processes.
+- The kernel's main responsibilities include managing CPU, memory, and device communication.
+
+## 3. Shell
+
+- The **shell** is an interface between the user and the operating system's kernel. It interprets commands entered by the user and forwards them to the kernel for execution.
+- The shell is a command interpreter, which provides a way for users to interact with the kernel through text commands.
+
+## 4. Common Shell Commands
+
+Here are some commonly used shell commands:
+
+- `pwd`: Displays the current working directory.
+- `cd [directory]`: Changes the current directory to the specified directory. To move to the parent directory, use `cd ..`.
+- `ls`: Lists the files and directories in the current directory.
+- `clear`: Clears the terminal screen.
+- `cp [Original] [Destination]`: Copies a file or directory to the destination.
+- `mv [Original] [Destination]`: Moves or renames a file or directory.
+- `rm [File]`: Deletes the specified file. To delete a directory and its contents, use `rm -r [directory]`.
+- `mkdir [directory]`: Creates a new directory.
+
+## Example
+
+```bash
+# Navigate to the home directory
+cd ~
+
+# List files in the current directory
+ls
+
+# Create a new directory named 'my_project'
+mkdir my_project
+
+# Copy a file from the current directory to 'my_project'
+cp example.txt my_project/
+
+# Move into the 'my_project' directory
+cd my_project
+
+# Rename the file inside 'my_project'
+mv example.txt example_renamed.txt
+
+# Clear the terminal screen
+clear
